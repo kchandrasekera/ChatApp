@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/javascripts/chat.js"></script>
+  <script src="/javascripts/chat_ui.js"></script>
+</head>
+
+
+<body>
+  <h1> Messages </h1>
+  <ul id="all-msgs"> </ul>
+
+  <h2> Send Messages </h2>
+
+  <form action="/" method="post" id="msg-form" accept-charset="utf-8">
+    <label for="message">Message</label>
+    <input type="text" name="message" value="" class="message">
+
+    <p><input type="submit" value="Send"></p>
+  </form>
+</body>
+
+</html>

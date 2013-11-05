@@ -1,0 +1,643 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/local/bin/node', '/opt/local/bin/npm', 'install' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose read json /Users/appacademy/Desktop/W8D1/my_chat_app/package.json
+5 warn package.json my_chat_app@0.0.1 No README.md file found!
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/appacademy/Desktop/W8D1/my_chat_app',
+7 verbose install   [ 'socket.io', 'mime' ] ]
+8 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/package.json
+9 info preinstall my_chat_app@0.0.1
+10 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'socket.io@~0.9.6', null ]
+13 verbose cache add name=undefined spec="socket.io@~0.9.6" args=["socket.io@~0.9.6",null]
+14 verbose parsed url { pathname: 'socket.io@~0.9.6',
+14 verbose parsed url   path: 'socket.io@~0.9.6',
+14 verbose parsed url   href: 'socket.io@~0.9.6' }
+15 verbose cache add name="socket.io" spec="~0.9.6" args=["socket.io","~0.9.6"]
+16 verbose parsed url { pathname: '~0.9.6', path: '~0.9.6', href: '~0.9.6' }
+17 verbose addNamed [ 'socket.io', '~0.9.6' ]
+18 verbose addNamed [ null, '>=0.9.6- <0.10.0-' ]
+19 verbose cache add [ 'mime@~1.2.7', null ]
+20 verbose cache add name=undefined spec="mime@~1.2.7" args=["mime@~1.2.7",null]
+21 verbose parsed url { pathname: 'mime@~1.2.7',
+21 verbose parsed url   path: 'mime@~1.2.7',
+21 verbose parsed url   href: 'mime@~1.2.7' }
+22 verbose cache add name="mime" spec="~1.2.7" args=["mime","~1.2.7"]
+23 verbose parsed url { pathname: '~1.2.7', path: '~1.2.7', href: '~1.2.7' }
+24 verbose addNamed [ 'mime', '~1.2.7' ]
+25 verbose addNamed [ null, '>=1.2.7- <1.3.0-' ]
+26 silly lockFile f2e07591-socket-io-0-9-6 socket.io@~0.9.6
+27 verbose lock socket.io@~0.9.6 /Users/appacademy/.npm/f2e07591-socket-io-0-9-6.lock
+28 silly addNameRange { name: 'socket.io', range: '>=0.9.6- <0.10.0-', hasData: false }
+29 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+30 verbose lock mime@~1.2.7 /Users/appacademy/.npm/3725bc70-mime-1-2-7.lock
+31 verbose url raw socket.io
+32 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+33 verbose url resolved https://registry.npmjs.org/socket.io
+34 info trying registry request attempt 1 at 10:50:03
+35 http GET https://registry.npmjs.org/socket.io
+36 silly addNameRange { name: 'mime', range: '>=1.2.7- <1.3.0-', hasData: false }
+37 verbose url raw mime
+38 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+39 verbose url resolved https://registry.npmjs.org/mime
+40 info trying registry request attempt 1 at 10:50:03
+41 http GET https://registry.npmjs.org/mime
+42 info retry will retry, error on last attempt: Error: socket hang up
+43 info retry will retry, error on last attempt: Error: socket hang up
+44 info trying registry request attempt 2 at 10:50:44
+45 http GET https://registry.npmjs.org/mime
+46 info trying registry request attempt 2 at 10:50:44
+47 http GET https://registry.npmjs.org/socket.io
+48 http 200 https://registry.npmjs.org/socket.io
+49 silly registry.get cb [ 200,
+49 silly registry.get   { vary: 'Accept',
+49 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+49 silly registry.get     etag: '"DSF55RABJJRXIZ3PXJ5PQ9N4A"',
+49 silly registry.get     date: 'Mon, 04 Nov 2013 18:51:21 GMT',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'content-length': '230352' } ]
+50 silly addNameRange number 2 { name: 'socket.io', range: '>=0.9.6- <0.10.0-', hasData: true }
+51 silly addNameRange versions [ 'socket.io',
+51 silly addNameRange   [ '0.3.8',
+51 silly addNameRange     '0.4.0',
+51 silly addNameRange     '0.4.1',
+51 silly addNameRange     '0.5.1',
+51 silly addNameRange     '0.5.3',
+51 silly addNameRange     '0.6.0',
+51 silly addNameRange     '0.6.1',
+51 silly addNameRange     '0.6.3',
+51 silly addNameRange     '0.6.4',
+51 silly addNameRange     '0.6.5',
+51 silly addNameRange     '0.6.6',
+51 silly addNameRange     '0.6.7',
+51 silly addNameRange     '0.6.8',
+51 silly addNameRange     '0.6.9',
+51 silly addNameRange     '0.6.10',
+51 silly addNameRange     '0.6.11',
+51 silly addNameRange     '0.6.12',
+51 silly addNameRange     '0.6.14',
+51 silly addNameRange     '0.6.15',
+51 silly addNameRange     '0.6.16',
+51 silly addNameRange     '0.6.17',
+51 silly addNameRange     '0.6.18',
+51 silly addNameRange     '0.7.0',
+51 silly addNameRange     '0.7.1',
+51 silly addNameRange     '0.7.2',
+51 silly addNameRange     '0.7.3',
+51 silly addNameRange     '0.7.4',
+51 silly addNameRange     '0.7.5',
+51 silly addNameRange     '0.7.6',
+51 silly addNameRange     '0.7.7',
+51 silly addNameRange     '0.7.8',
+51 silly addNameRange     '0.7.9',
+51 silly addNameRange     '0.7.10',
+51 silly addNameRange     '0.7.11',
+51 silly addNameRange     '0.8.0',
+51 silly addNameRange     '0.8.1',
+51 silly addNameRange     '0.8.2',
+51 silly addNameRange     '0.8.3',
+51 silly addNameRange     '0.8.4',
+51 silly addNameRange     '0.8.5',
+51 silly addNameRange     '0.8.6',
+51 silly addNameRange     '0.8.7',
+51 silly addNameRange     '0.9.0',
+51 silly addNameRange     '0.9.1',
+51 silly addNameRange     '0.9.1-1',
+51 silly addNameRange     '0.9.2',
+51 silly addNameRange     '0.9.3',
+51 silly addNameRange     '0.9.4',
+51 silly addNameRange     '0.9.5',
+51 silly addNameRange     '0.9.6',
+51 silly addNameRange     '0.9.7',
+51 silly addNameRange     '0.9.8',
+51 silly addNameRange     '0.9.9',
+51 silly addNameRange     '0.9.10',
+51 silly addNameRange     '0.9.11',
+51 silly addNameRange     '0.9.12',
+51 silly addNameRange     '0.9.13',
+51 silly addNameRange     '0.9.14',
+51 silly addNameRange     '0.9.15',
+51 silly addNameRange     '0.9.16' ] ]
+52 verbose addNamed [ 'socket.io', '0.9.16' ]
+53 verbose addNamed [ '0.9.16', '0.9.16' ]
+54 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+55 verbose lock socket.io@0.9.16 /Users/appacademy/.npm/a7acce22-socket-io-0-9-16.lock
+56 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+57 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz /Users/appacademy/.npm/ca7568e4-g-socket-io-socket-io-0-9-16-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz',
+58 verbose addRemoteTarball   '3bab0444e49b55fbbc157424dbd41aa375a51a76' ]
+59 info retry fetch attempt 1 at 10:51:19
+60 verbose fetch to= /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+61 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+62 http 200 https://registry.npmjs.org/mime
+63 silly registry.get cb [ 200,
+63 silly registry.get   { vary: 'Accept',
+63 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+63 silly registry.get     etag: '"7EO2K9LTTTQE0CBK2EEXXT9R"',
+63 silly registry.get     date: 'Mon, 04 Nov 2013 18:51:24 GMT',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'content-length': '26221' } ]
+64 silly addNameRange number 2 { name: 'mime', range: '>=1.2.7- <1.3.0-', hasData: true }
+65 silly addNameRange versions [ 'mime',
+65 silly addNameRange   [ '1.0.0',
+65 silly addNameRange     '1.1.0',
+65 silly addNameRange     '1.2.1',
+65 silly addNameRange     '1.2.2',
+65 silly addNameRange     '1.2.3',
+65 silly addNameRange     '1.2.4',
+65 silly addNameRange     '1.2.5',
+65 silly addNameRange     '1.2.6',
+65 silly addNameRange     '1.2.7',
+65 silly addNameRange     '1.2.8',
+65 silly addNameRange     '1.2.9',
+65 silly addNameRange     '1.2.10',
+65 silly addNameRange     '1.2.11' ] ]
+66 verbose addNamed [ 'mime', '1.2.11' ]
+67 verbose addNamed [ '1.2.11', '1.2.11' ]
+68 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+69 verbose lock mime@1.2.11 /Users/appacademy/.npm/c4b0741f-mime-1-2-11.lock
+70 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+71 verbose lock https://registry.npmjs.org/mime/-/mime-1.2.11.tgz /Users/appacademy/.npm/98468155-y-npmjs-org-mime-mime-1-2-11-tgz.lock
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime/-/mime-1.2.11.tgz',
+72 verbose addRemoteTarball   '58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10' ]
+73 info retry fetch attempt 1 at 10:51:22
+74 verbose fetch to= /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+75 http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+76 error fetch failed https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+77 info retry will retry, error on last attempt: Error: socket hang up
+78 error fetch failed https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+79 info retry will retry, error on last attempt: Error: socket hang up
+80 info retry fetch attempt 2 at 10:51:40
+81 verbose fetch to= /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+82 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+83 info retry fetch attempt 2 at 10:51:40
+84 verbose fetch to= /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+85 http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+86 http 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+87 http 200 https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+88 silly shasum updated bytes 20312
+89 info shasum 58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10
+89 info shasum /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+90 verbose tar unpack /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+91 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+92 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package /Users/appacademy/.npm/c7f73cc7-2930-0-06549070752225816-package.lock
+93 silly lockFile 5e3cf8d7-2930-0-06549070752225816-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+94 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz /Users/appacademy/.npm/5e3cf8d7-2930-0-06549070752225816-tmp-tgz.lock
+95 silly gunzTarPerm modes [ '755', '644' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm extractEntry README.md
+98 silly gunzTarPerm extractEntry LICENSE
+99 silly gunzTarPerm extractEntry mime.js
+100 silly gunzTarPerm extractEntry test.js
+101 silly gunzTarPerm extractEntry types/mime.types
+102 silly gunzTarPerm extractEntry types/node.types
+103 verbose read json /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package/package.json
+104 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+105 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+106 silly lockFile 5e3cf8d7-2930-0-06549070752225816-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+107 silly lockFile 5e3cf8d7-2930-0-06549070752225816-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/tmp.tgz
+108 verbose from cache /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package/package.json
+109 verbose tar pack [ '/Users/appacademy/.npm/mime/1.2.11/package.tgz',
+109 verbose tar pack   '/var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package' ]
+110 verbose tarball /Users/appacademy/.npm/mime/1.2.11/package.tgz
+111 verbose folder /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+112 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+113 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package /Users/appacademy/.npm/c7f73cc7-2930-0-06549070752225816-package.lock
+114 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+115 verbose lock /Users/appacademy/.npm/mime/1.2.11/package.tgz /Users/appacademy/.npm/a9817239-demy-npm-mime-1-2-11-package-tgz.lock
+116 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+117 silly lockFile c7f73cc7-2930-0-06549070752225816-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591082930-0.06549070752225816/package
+118 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+119 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+120 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+121 verbose lock /Users/appacademy/.npm/mime/1.2.11/package /Users/appacademy/.npm/45e2b019-pacademy-npm-mime-1-2-11-package.lock
+122 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+123 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+124 verbose tar unpack /Users/appacademy/.npm/mime/1.2.11/package.tgz
+125 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+126 verbose lock /Users/appacademy/.npm/mime/1.2.11/package /Users/appacademy/.npm/45e2b019-pacademy-npm-mime-1-2-11-package.lock
+127 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+128 verbose lock /Users/appacademy/.npm/mime/1.2.11/package.tgz /Users/appacademy/.npm/a9817239-demy-npm-mime-1-2-11-package-tgz.lock
+129 silly gunzTarPerm modes [ '755', '644' ]
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm extractEntry LICENSE
+133 silly shasum updated bytes 35009
+134 info shasum 3bab0444e49b55fbbc157424dbd41aa375a51a76
+134 info shasum /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+135 verbose tar unpack /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+136 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+137 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package /Users/appacademy/.npm/6d2b8f3b-79900-0-5877817959990352-package.lock
+138 silly lockFile 7f1f1126-79900-0-5877817959990352-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+139 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz /Users/appacademy/.npm/7f1f1126-79900-0-5877817959990352-tmp-tgz.lock
+140 silly gunzTarPerm modes [ '755', '644' ]
+141 silly gunzTarPerm extractEntry mime.js
+142 silly gunzTarPerm extractEntry test.js
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm extractEntry .npmignore
+145 silly gunzTarPerm extractEntry LICENSE
+146 silly gunzTarPerm extractEntry types/mime.types
+147 silly gunzTarPerm extractEntry types/node.types
+148 silly gunzTarPerm extractEntry index.js
+149 silly gunzTarPerm extractEntry .travis.yml
+150 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+151 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+152 silly gunzTarPerm extractEntry benchmarks/runner.js
+153 silly gunzTarPerm extractEntry History.md
+154 silly gunzTarPerm extractEntry lib/logger.js
+155 silly gunzTarPerm extractEntry lib/namespace.js
+156 silly gunzTarPerm extractEntry lib/parser.js
+157 silly gunzTarPerm extractEntry lib/socket.io.js
+158 silly gunzTarPerm extractEntry lib/socket.js
+159 silly gunzTarPerm extractEntry lib/manager.js
+160 silly gunzTarPerm extractEntry lib/store.js
+161 silly gunzTarPerm extractEntry lib/transport.js
+162 silly gunzTarPerm extractEntry lib/util.js
+163 silly gunzTarPerm extractEntry lib/static.js
+164 silly gunzTarPerm extractEntry lib/stores/memory.js
+165 silly gunzTarPerm extractEntry lib/stores/redis.js
+166 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+167 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+168 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+169 silly gunzTarPerm extractEntry lib/transports/http.js
+170 silly gunzTarPerm extractEntry lib/transports/index.js
+171 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+172 silly gunzTarPerm extractEntry lib/transports/websocket.js
+173 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+174 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+175 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+176 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+177 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+178 silly gunzTarPerm extractEntry Makefile
+179 verbose read json /Users/appacademy/.npm/mime/1.2.11/package/package.json
+180 silly gunzTarPerm extractEntry Readme.md
+181 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+182 silly lockFile 45e2b019-pacademy-npm-mime-1-2-11-package /Users/appacademy/.npm/mime/1.2.11/package
+183 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+184 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+185 silly shasum updated bytes 19060
+186 info shasum 3d67fcb4feb09a8a2092769b70d590622f92f36c
+186 info shasum /Users/appacademy/.npm/mime/1.2.11/package.tgz
+187 verbose from cache /Users/appacademy/.npm/mime/1.2.11/package/package.json
+188 verbose chmod /Users/appacademy/.npm/mime/1.2.11/package.tgz 644
+189 verbose chown /Users/appacademy/.npm/mime/1.2.11/package.tgz [ 501, 20 ]
+190 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+191 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+192 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+193 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+194 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+195 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+196 verbose read json /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package/package.json
+197 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+198 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+199 silly lockFile 7f1f1126-79900-0-5877817959990352-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+200 silly lockFile 7f1f1126-79900-0-5877817959990352-tmp-tgz /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/tmp.tgz
+201 verbose from cache /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package/package.json
+202 verbose tar pack [ '/Users/appacademy/.npm/socket.io/0.9.16/package.tgz',
+202 verbose tar pack   '/var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package' ]
+203 verbose tarball /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+204 verbose folder /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+205 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+206 verbose lock /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package /Users/appacademy/.npm/6d2b8f3b-79900-0-5877817959990352-package.lock
+207 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+208 verbose lock /Users/appacademy/.npm/socket.io/0.9.16/package.tgz /Users/appacademy/.npm/5c98d4b7-npm-socket-io-0-9-16-package-tgz.lock
+209 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+210 silly lockFile 6d2b8f3b-79900-0-5877817959990352-package /var/folders/z9/ccm9f83x2kd9_s24pz9q6x700000gn/T/npm-39340/1383591079900-0.5877817959990352/package
+211 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+212 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+213 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+214 verbose lock /Users/appacademy/.npm/socket.io/0.9.16/package /Users/appacademy/.npm/220714e0-emy-npm-socket-io-0-9-16-package.lock
+215 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+216 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+217 verbose tar unpack /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+218 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+219 verbose lock /Users/appacademy/.npm/socket.io/0.9.16/package /Users/appacademy/.npm/220714e0-emy-npm-socket-io-0-9-16-package.lock
+220 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+221 verbose lock /Users/appacademy/.npm/socket.io/0.9.16/package.tgz /Users/appacademy/.npm/5c98d4b7-npm-socket-io-0-9-16-package-tgz.lock
+222 silly gunzTarPerm modes [ '755', '644' ]
+223 silly gunzTarPerm extractEntry package.json
+224 silly gunzTarPerm extractEntry .npmignore
+225 silly gunzTarPerm extractEntry LICENSE
+226 silly gunzTarPerm extractEntry index.js
+227 silly gunzTarPerm extractEntry .travis.yml
+228 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+229 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+230 silly gunzTarPerm extractEntry benchmarks/runner.js
+231 silly gunzTarPerm extractEntry History.md
+232 silly gunzTarPerm extractEntry lib/logger.js
+233 silly gunzTarPerm extractEntry lib/namespace.js
+234 silly gunzTarPerm extractEntry lib/parser.js
+235 silly gunzTarPerm extractEntry lib/socket.io.js
+236 silly gunzTarPerm extractEntry lib/socket.js
+237 silly gunzTarPerm extractEntry lib/manager.js
+238 silly gunzTarPerm extractEntry lib/store.js
+239 silly gunzTarPerm extractEntry lib/transport.js
+240 silly gunzTarPerm extractEntry lib/util.js
+241 silly gunzTarPerm extractEntry lib/static.js
+242 silly gunzTarPerm extractEntry lib/stores/memory.js
+243 silly gunzTarPerm extractEntry lib/stores/redis.js
+244 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+245 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+246 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+247 silly gunzTarPerm extractEntry lib/transports/http.js
+248 silly gunzTarPerm extractEntry lib/transports/index.js
+249 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+250 silly gunzTarPerm extractEntry lib/transports/websocket.js
+251 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+252 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+253 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+254 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+255 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+256 silly gunzTarPerm extractEntry Makefile
+257 silly gunzTarPerm extractEntry Readme.md
+258 verbose read json /Users/appacademy/.npm/socket.io/0.9.16/package/package.json
+259 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+260 silly lockFile 220714e0-emy-npm-socket-io-0-9-16-package /Users/appacademy/.npm/socket.io/0.9.16/package
+261 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+262 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+263 silly shasum updated bytes 35009
+264 info shasum 3bab0444e49b55fbbc157424dbd41aa375a51a76
+264 info shasum /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+265 verbose from cache /Users/appacademy/.npm/socket.io/0.9.16/package/package.json
+266 verbose chmod /Users/appacademy/.npm/socket.io/0.9.16/package.tgz 644
+267 verbose chown /Users/appacademy/.npm/socket.io/0.9.16/package.tgz [ 501, 20 ]
+268 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+269 silly lockFile ca7568e4-g-socket-io-socket-io-0-9-16-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz
+270 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+271 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+272 silly lockFile f2e07591-socket-io-0-9-6 socket.io@~0.9.6
+273 silly lockFile f2e07591-socket-io-0-9-6 socket.io@~0.9.6
+274 silly resolved [ { author:
+274 silly resolved      { name: 'Robert Kieffer',
+274 silly resolved        email: 'robert@broofa.com',
+274 silly resolved        url: 'http://github.com/broofa' },
+274 silly resolved     contributors: [ [Object] ],
+274 silly resolved     dependencies: {},
+274 silly resolved     description: 'A comprehensive library for mime-type mapping',
+274 silly resolved     devDependencies: {},
+274 silly resolved     keywords: [ 'util', 'mime' ],
+274 silly resolved     main: 'mime.js',
+274 silly resolved     name: 'mime',
+274 silly resolved     repository: { url: 'https://github.com/broofa/node-mime', type: 'git' },
+274 silly resolved     version: '1.2.11',
+274 silly resolved     readme: '# mime\n\nComprehensive MIME type mapping API. Includes all 600+ types and 800+ extensions defined by the Apache project, plus additional types submitted by the node.js community.\n\n## Install\n\nInstall with [npm](http://github.com/isaacs/npm):\n\n    npm install mime\n\n## API - Queries\n\n### mime.lookup(path)\nGet the mime type associated with a file, if no mime type is found `application/octet-stream` is returned. Performs a case-insensitive lookup using the extension in `path` (the substring after the last \'/\' or \'.\').  E.g.\n\n    var mime = require(\'mime\');\n\n    mime.lookup(\'/path/to/file.txt\');         // => \'text/plain\'\n    mime.lookup(\'file.txt\');                  // => \'text/plain\'\n    mime.lookup(\'.TXT\');                      // => \'text/plain\'\n    mime.lookup(\'htm\');                       // => \'text/html\'\n\n### mime.default_type\nSets the mime type returned when `mime.lookup` fails to find the extension searched for. (Default is `application/octet-stream`.)\n\n### mime.extension(type)\nGet the default extension for `type`\n\n    mime.extension(\'text/html\');                 // => \'html\'\n    mime.extension(\'application/octet-stream\');  // => \'bin\'\n\n### mime.charsets.lookup()\n\nMap mime-type to charset\n\n    mime.charsets.lookup(\'text/plain\');        // => \'UTF-8\'\n\n(The logic for charset lookups is pretty rudimentary.  Feel free to suggest improvements.)\n\n## API - Defining Custom Types\n\nThe following APIs allow you to add your own type mappings within your project.  If you feel a type should be included as part of node-mime, see [requesting new types](https://github.com/broofa/node-mime/wiki/Requesting-New-Types).\n\n### mime.define()\n\nAdd custom mime/extension mappings\n\n    mime.define({\n        \'text/x-some-format\': [\'x-sf\', \'x-sft\', \'x-sfml\'],\n        \'application/x-my-type\': [\'x-mt\', \'x-mtt\'],\n        // etc ...\n    });\n\n    mime.lookup(\'x-sft\');                 // => \'text/x-some-format\'\n\nThe first entry in the extensions array is returned by `mime.extension()`. E.g.\n\n    mime.extension(\'text/x-some-format\'); // => \'x-sf\'\n\n### mime.load(filepath)\n\nLoad mappings from an Apache ".types" format file\n\n    mime.load(\'./my_project.types\');\n\nThe .types file format is simple -  See the `types` dir for examples.\n',
+274 silly resolved     readmeFilename: 'README.md',
+274 silly resolved     _id: 'mime@1.2.11',
+274 silly resolved     dist: { shasum: '3d67fcb4feb09a8a2092769b70d590622f92f36c' },
+274 silly resolved     _from: 'mime@~1.2.7',
+274 silly resolved     _resolved: 'https://registry.npmjs.org/mime/-/mime-1.2.11.tgz' },
+274 silly resolved   { name: 'socket.io',
+274 silly resolved     version: '0.9.16',
+274 silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+274 silly resolved     homepage: 'http://socket.io',
+274 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+274 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+274 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+274 silly resolved     repository:
+274 silly resolved      { type: 'git',
+274 silly resolved        url: 'https://github.com/LearnBoost/socket.io.git' },
+274 silly resolved     dependencies:
+274 silly resolved      { 'socket.io-client': '0.9.16',
+274 silly resolved        policyfile: '0.0.4',
+274 silly resolved        base64id: '0.1.0',
+274 silly resolved        redis: '0.7.3' },
+274 silly resolved     devDependencies:
+274 silly resolved      { expresso: '0.9.2',
+274 silly resolved        should: '*',
+274 silly resolved        benchmark: '0.2.2',
+274 silly resolved        microtime: '0.1.3-1',
+274 silly resolved        colors: '0.5.1' },
+274 silly resolved     optionalDependencies: { redis: '0.7.3' },
+274 silly resolved     main: 'index',
+274 silly resolved     engines: { node: '>= 0.4.0' },
+274 silly resolved     scripts: { test: 'make test' },
+274 silly resolved     readme: '# Socket.IO\n\nSocket.IO is a Node.JS project that makes WebSockets and realtime possible in\nall browsers. It also enhances WebSockets by providing built-in multiplexing,\nhorizontal scalability, automatic JSON encoding/decoding, and more.\n\n## How to Install\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nFirst, require `socket.io`:\n\n```js\nvar io = require(\'socket.io\');\n```\n\nNext, attach it to a HTTP/HTTPS server. If you\'re using the fantastic `express`\nweb framework:\n\n#### Express 3.x\n\n```js\nvar app = express()\n  , server = require(\'http\').createServer(app)\n  , io = io.listen(server);\n\nserver.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\n#### Express 2.x\n\n```js\nvar app = express.createServer()\n  , io = io.listen(app);\n\napp.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\nFinally, load it from the client side code:\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io.connect(\'http://localhost\');\n  socket.on(\'news\', function (data) {\n    console.log(data);\n    socket.emit(\'my other event\', { my: \'data\' });\n  });\n</script>\n```\n\nFor more thorough examples, look at the `examples/` directory.\n\n## Short recipes\n\n### Sending and receiving events.\n\nSocket.IO allows you to emit and receive custom events.\nBesides `connect`, `message` and `disconnect`, you can emit custom events:\n\n```js\n// note, io.listen(<port>) will create a http server for you\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  io.sockets.emit(\'this\', { will: \'be received by everyone\' });\n\n  socket.on(\'private message\', function (from, msg) {\n    console.log(\'I received a private message by \', from, \' saying \', msg);\n  });\n\n  socket.on(\'disconnect\', function () {\n    io.sockets.emit(\'user disconnected\');\n  });\n});\n```\n\n### Storing data associated to a client\n\nSometimes it\'s necessary to store data associated with a client that\'s\nnecessary for the duration of the session.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'set nickname\', function (name) {\n    socket.set(\'nickname\', name, function () { socket.emit(\'ready\'); });\n  });\n\n  socket.on(\'msg\', function () {\n    socket.get(\'nickname\', function (err, name) {\n      console.log(\'Chat message by \', name);\n    });\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost\');\n\n  socket.on(\'connect\', function () {\n    socket.emit(\'set nickname\', prompt(\'What is your nickname?\'));\n    socket.on(\'ready\', function () {\n      console.log(\'Connected !\');\n      socket.emit(\'msg\', prompt(\'What is your message?\'));\n    });\n  });\n</script>\n```\n\n### Restricting yourself to a namespace\n\nIf you have control over all the messages and events emitted for a particular\napplication, using the default `/` namespace works.\n\nIf you want to leverage 3rd-party code, or produce code to share with others,\nsocket.io provides a way of namespacing a `socket`.\n\nThis has the benefit of `multiplexing` a single connection. Instead of\nsocket.io using two `WebSocket` connections, it\'ll use one.\n\nThe following example defines a socket that listens on \'/chat\' and one for\n\'/news\':\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nvar chat = io\n  .of(\'/chat\')\n  .on(\'connection\', function (socket) {\n    socket.emit(\'a message\', { that: \'only\', \'/chat\': \'will get\' });\n    chat.emit(\'a message\', { everyone: \'in\', \'/chat\': \'will get\' });\n  });\n\nvar news = io\n  .of(\'/news\');\n  .on(\'connection\', function (socket) {\n    socket.emit(\'item\', { news: \'item\' });\n  });\n```\n\n#### Client side:\n\n```html\n<script>\n  var chat = io.connect(\'http://localhost/chat\')\n    , news = io.connect(\'http://localhost/news\');\n\n  chat.on(\'connect\', function () {\n    chat.emit(\'hi!\');\n  });\n\n  news.on(\'news\', function () {\n    news.emit(\'woot\');\n  });\n</script>\n```\n\n### Sending volatile messages.\n\nSometimes certain messages can be dropped. Let\'s say you have an app that\nshows realtime tweets for the keyword `bieber`. \n\nIf a certain client is not ready to receive messages (because of network slowness\nor other issues, or because he\'s connected through long polling and is in the\nmiddle of a request-response cycle), if he doesn\'t receive ALL the tweets related\nto bieber your application won\'t suffer.\n\nIn that case, you might want to send those messages as volatile messages.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  var tweets = setInterval(function () {\n    getBieberTweet(function (tweet) {\n      socket.volatile.emit(\'bieber tweet\', tweet);\n    });\n  }, 100);\n\n  socket.on(\'disconnect\', function () {\n    clearInterval(tweets);\n  });\n});\n```\n\n#### Client side\n\nIn the client side, messages are received the same way whether they\'re volatile\nor not.\n\n### Getting acknowledgements\n\nSometimes, you might want to get a callback when the client confirmed the message\nreception.\n\nTo do this, simply pass a function as the last parameter of `.send` or `.emit`.\nWhat\'s more, when you use `.emit`, the acknowledgement is done by you, which\nmeans you can also pass data along:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'ferret\', function (name, fn) {\n    fn(\'woot\');\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(); // TIP: .connect with no args does auto-discovery\n  socket.on(\'connect\', function () { // TIP: you can avoid listening on `connect` and listen on events directly too!\n    socket.emit(\'ferret\', \'tobi\', function (data) {\n      console.log(data); // data will be \'woot\'\n    });\n  });\n</script>\n```\n\n### Broadcasting messages\n\nTo broadcast, simply add a `broadcast` flag to `emit` and `send` method calls.\nBroadcasting means sending a message to everyone else except for the socket\nthat starts it.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.broadcast.emit(\'user connected\');\n  socket.broadcast.json.send({ a: \'message\' });\n});\n```\n\n### Rooms\n\nSometimes you want to put certain sockets in the same room, so that it\'s easy\nto broadcast to all of them together.\n\nThink of this as built-in channels for sockets. Sockets `join` and `leave`\nrooms in each socket.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.join(\'justin bieber fans\');\n  socket.broadcast.to(\'justin bieber fans\').emit(\'new fan\');\n  io.sockets.in(\'rammstein fans\').emit(\'new non-fan\');\n});\n```\n\n### Using it just as a cross-browser WebSocket\n\nIf you just want the WebSocket semantics, you can do that too.\nSimply leverage `send` and listen on the `message` event:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'message\', function () { });\n  socket.on(\'disconnect\', function () { });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost/\');\n  socket.on(\'connect\', function () {\n    socket.send(\'hi\');\n\n    socket.on(\'message\', function (msg) {\n      // my msg\n    });\n  });\n</script>\n```\n\n### Changing configuration\n\nConfiguration in socket.io is TJ-style:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.configure(function () {\n  io.set(\'transports\', [\'websocket\', \'flashsocket\', \'xhr-polling\']);\n});\n\nio.configure(\'development\', function () {\n  io.set(\'transports\', [\'websocket\', \'xhr-polling\']);\n  io.enable(\'log\');\n});\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+274 silly resolved     readmeFilename: 'Readme.md',
+274 silly resolved     _id: 'socket.io@0.9.16',
+274 silly resolved     dist: { shasum: '3bab0444e49b55fbbc157424dbd41aa375a51a76' },
+274 silly resolved     _from: 'socket.io@~0.9.6',
+274 silly resolved     _resolved: 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.16.tgz' } ]
+275 info install mime@1.2.11 into /Users/appacademy/Desktop/W8D1/my_chat_app
+276 info install socket.io@0.9.16 into /Users/appacademy/Desktop/W8D1/my_chat_app
+277 info installOne mime@1.2.11
+278 info installOne socket.io@0.9.16
+279 verbose from cache /Users/appacademy/.npm/mime/1.2.11/package/package.json
+280 verbose from cache /Users/appacademy/.npm/socket.io/0.9.16/package/package.json
+281 info /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime unbuild
+282 verbose read json /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime/package.json
+283 info /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io unbuild
+284 verbose read json /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io/package.json
+285 verbose tar unpack /Users/appacademy/.npm/mime/1.2.11/package.tgz
+286 verbose tar unpack /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+287 silly lockFile ec87ed3d-D1-my-chat-app-node-modules-mime /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime
+288 verbose lock /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime /Users/appacademy/.npm/ec87ed3d-D1-my-chat-app-node-modules-mime.lock
+289 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+290 verbose lock /Users/appacademy/.npm/mime/1.2.11/package.tgz /Users/appacademy/.npm/a9817239-demy-npm-mime-1-2-11-package-tgz.lock
+291 silly lockFile 8ac4bfb9--chat-app-node-modules-socket-io /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io
+292 verbose lock /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io /Users/appacademy/.npm/8ac4bfb9--chat-app-node-modules-socket-io.lock
+293 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+294 verbose lock /Users/appacademy/.npm/socket.io/0.9.16/package.tgz /Users/appacademy/.npm/5c98d4b7-npm-socket-io-0-9-16-package-tgz.lock
+295 silly gunzTarPerm modes [ '755', '644' ]
+296 silly gunzTarPerm modes [ '755', '644' ]
+297 silly gunzTarPerm extractEntry package.json
+298 silly gunzTarPerm extractEntry package.json
+299 silly gunzTarPerm extractEntry README.md
+300 silly gunzTarPerm extractEntry LICENSE
+301 silly gunzTarPerm extractEntry .npmignore
+302 silly gunzTarPerm extractEntry LICENSE
+303 silly gunzTarPerm extractEntry mime.js
+304 silly gunzTarPerm extractEntry test.js
+305 silly gunzTarPerm extractEntry index.js
+306 silly gunzTarPerm extractEntry .travis.yml
+307 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+308 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+309 silly gunzTarPerm extractEntry types/mime.types
+310 silly gunzTarPerm extractEntry types/node.types
+311 silly gunzTarPerm extractEntry benchmarks/runner.js
+312 silly gunzTarPerm extractEntry History.md
+313 silly gunzTarPerm extractEntry lib/logger.js
+314 silly gunzTarPerm extractEntry lib/namespace.js
+315 silly gunzTarPerm extractEntry lib/parser.js
+316 silly gunzTarPerm extractEntry lib/socket.io.js
+317 silly gunzTarPerm extractEntry lib/socket.js
+318 silly gunzTarPerm extractEntry lib/manager.js
+319 silly gunzTarPerm extractEntry lib/store.js
+320 silly gunzTarPerm extractEntry lib/transport.js
+321 silly gunzTarPerm extractEntry lib/util.js
+322 silly gunzTarPerm extractEntry lib/static.js
+323 silly gunzTarPerm extractEntry lib/stores/memory.js
+324 silly gunzTarPerm extractEntry lib/stores/redis.js
+325 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+326 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+327 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+328 silly gunzTarPerm extractEntry lib/transports/http.js
+329 silly gunzTarPerm extractEntry lib/transports/index.js
+330 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+331 silly gunzTarPerm extractEntry lib/transports/websocket.js
+332 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+333 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+334 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+335 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+336 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+337 silly gunzTarPerm extractEntry Makefile
+338 silly gunzTarPerm extractEntry Readme.md
+339 verbose read json /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime/package.json
+340 silly lockFile ec87ed3d-D1-my-chat-app-node-modules-mime /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime
+341 silly lockFile ec87ed3d-D1-my-chat-app-node-modules-mime /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime
+342 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+343 silly lockFile a9817239-demy-npm-mime-1-2-11-package-tgz /Users/appacademy/.npm/mime/1.2.11/package.tgz
+344 info preinstall mime@1.2.11
+345 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime/package.json
+346 verbose readDependencies using package.json deps
+347 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime/package.json
+348 verbose readDependencies using package.json deps
+349 silly resolved []
+350 verbose about to build /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime
+351 info build /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime
+352 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/mime/package.json
+353 verbose linkStuff [ false,
+353 verbose linkStuff   false,
+353 verbose linkStuff   false,
+353 verbose linkStuff   '/Users/appacademy/Desktop/W8D1/my_chat_app/node_modules' ]
+354 info linkStuff mime@1.2.11
+355 verbose linkBins mime@1.2.11
+356 verbose linkMans mime@1.2.11
+357 verbose rebuildBundles mime@1.2.11
+358 info install mime@1.2.11
+359 info postinstall mime@1.2.11
+360 verbose read json /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io/package.json
+361 silly lockFile 8ac4bfb9--chat-app-node-modules-socket-io /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io
+362 silly lockFile 8ac4bfb9--chat-app-node-modules-socket-io /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io
+363 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+364 silly lockFile 5c98d4b7-npm-socket-io-0-9-16-package-tgz /Users/appacademy/.npm/socket.io/0.9.16/package.tgz
+365 info preinstall socket.io@0.9.16
+366 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io/package.json
+367 verbose readDependencies using package.json deps
+368 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io/package.json
+369 verbose readDependencies using package.json deps
+370 verbose cache add [ 'socket.io-client@0.9.16', null ]
+371 verbose cache add name=undefined spec="socket.io-client@0.9.16" args=["socket.io-client@0.9.16",null]
+372 verbose parsed url { pathname: 'socket.io-client@0.9.16',
+372 verbose parsed url   path: 'socket.io-client@0.9.16',
+372 verbose parsed url   href: 'socket.io-client@0.9.16' }
+373 verbose cache add name="socket.io-client" spec="0.9.16" args=["socket.io-client","0.9.16"]
+374 verbose parsed url { pathname: '0.9.16', path: '0.9.16', href: '0.9.16' }
+375 verbose addNamed [ 'socket.io-client', '0.9.16' ]
+376 verbose addNamed [ '0.9.16', '0.9.16' ]
+377 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+378 verbose lock socket.io-client@0.9.16 /Users/appacademy/.npm/c81dc0af-socket-io-client-0-9-16.lock
+379 verbose cache add [ 'policyfile@0.0.4', null ]
+380 verbose cache add name=undefined spec="policyfile@0.0.4" args=["policyfile@0.0.4",null]
+381 verbose parsed url { pathname: 'policyfile@0.0.4',
+381 verbose parsed url   path: 'policyfile@0.0.4',
+381 verbose parsed url   href: 'policyfile@0.0.4' }
+382 verbose cache add name="policyfile" spec="0.0.4" args=["policyfile","0.0.4"]
+383 verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+384 verbose addNamed [ 'policyfile', '0.0.4' ]
+385 verbose addNamed [ '0.0.4', '0.0.4' ]
+386 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+387 verbose lock policyfile@0.0.4 /Users/appacademy/.npm/8b99131a-policyfile-0-0-4.lock
+388 verbose url raw socket.io-client/0.9.16
+389 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/0.9.16' ]
+390 verbose url resolved https://registry.npmjs.org/socket.io-client/0.9.16
+391 info trying registry request attempt 1 at 10:52:00
+392 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+393 verbose url raw policyfile/0.0.4
+394 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/0.0.4' ]
+395 verbose url resolved https://registry.npmjs.org/policyfile/0.0.4
+396 info trying registry request attempt 1 at 10:52:00
+397 http GET https://registry.npmjs.org/policyfile/0.0.4
+398 verbose cache add [ 'base64id@0.1.0', null ]
+399 verbose cache add name=undefined spec="base64id@0.1.0" args=["base64id@0.1.0",null]
+400 verbose parsed url { pathname: 'base64id@0.1.0',
+400 verbose parsed url   path: 'base64id@0.1.0',
+400 verbose parsed url   href: 'base64id@0.1.0' }
+401 verbose cache add name="base64id" spec="0.1.0" args=["base64id","0.1.0"]
+402 verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+403 verbose addNamed [ 'base64id', '0.1.0' ]
+404 verbose addNamed [ '0.1.0', '0.1.0' ]
+405 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+406 verbose lock base64id@0.1.0 /Users/appacademy/.npm/b2185bf4-base64id-0-1-0.lock
+407 verbose cache add [ 'redis@0.7.3', null ]
+408 verbose cache add name=undefined spec="redis@0.7.3" args=["redis@0.7.3",null]
+409 verbose parsed url { pathname: 'redis@0.7.3',
+409 verbose parsed url   path: 'redis@0.7.3',
+409 verbose parsed url   href: 'redis@0.7.3' }
+410 verbose cache add name="redis" spec="0.7.3" args=["redis","0.7.3"]
+411 verbose parsed url { pathname: '0.7.3', path: '0.7.3', href: '0.7.3' }
+412 verbose addNamed [ 'redis', '0.7.3' ]
+413 verbose addNamed [ '0.7.3', '0.7.3' ]
+414 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+415 verbose lock redis@0.7.3 /Users/appacademy/.npm/10399cfa-redis-0-7-3.lock
+416 verbose url raw base64id/0.1.0
+417 verbose url resolving [ 'https://registry.npmjs.org/', './base64id/0.1.0' ]
+418 verbose url resolved https://registry.npmjs.org/base64id/0.1.0
+419 info trying registry request attempt 1 at 10:52:00
+420 http GET https://registry.npmjs.org/base64id/0.1.0
+421 verbose url raw redis/0.7.3
+422 verbose url resolving [ 'https://registry.npmjs.org/', './redis/0.7.3' ]
+423 verbose url resolved https://registry.npmjs.org/redis/0.7.3
+424 info trying registry request attempt 1 at 10:52:00
+425 http GET https://registry.npmjs.org/redis/0.7.3
+426 info retry will retry, error on last attempt: Error: socket hang up
+427 info retry will retry, error on last attempt: Error: socket hang up
+428 info retry will retry, error on last attempt: Error: socket hang up
+429 info retry will retry, error on last attempt: Error: socket hang up
+430 info trying registry request attempt 2 at 10:52:31
+431 http GET https://registry.npmjs.org/base64id/0.1.0
+432 info trying registry request attempt 2 at 10:52:31
+433 http GET https://registry.npmjs.org/policyfile/0.0.4
+434 info trying registry request attempt 2 at 10:52:31
+435 http GET https://registry.npmjs.org/redis/0.7.3
+436 info trying registry request attempt 2 at 10:52:31
+437 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+438 info retry will retry, error on last attempt: Error: socket hang up
+439 info retry will retry, error on last attempt: Error: socket hang up
+440 info retry will retry, error on last attempt: Error: socket hang up
+441 info retry will retry, error on last attempt: Error: socket hang up
+442 info trying registry request attempt 3 at 10:53:52
+443 http GET https://registry.npmjs.org/base64id/0.1.0
+444 info trying registry request attempt 3 at 10:53:52
+445 http GET https://registry.npmjs.org/policyfile/0.0.4
+446 info trying registry request attempt 3 at 10:53:52
+447 http GET https://registry.npmjs.org/redis/0.7.3
+448 info trying registry request attempt 3 at 10:53:52
+449 http GET https://registry.npmjs.org/socket.io-client/0.9.16
+450 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+451 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+452 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+453 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+454 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+455 silly lockFile c81dc0af-socket-io-client-0-9-16 socket.io-client@0.9.16
+456 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+457 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+458 warn optional dep failed, continuing redis@0.7.3
+459 verbose optional dep failed, continuing [ 'redis@0.7.3',
+459 verbose optional dep failed, continuing   { [Error: socket hang up] code: 'ECONNRESET' } ]
+460 verbose about to build /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io
+461 info /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io unbuild
+462 verbose from cache /Users/appacademy/Desktop/W8D1/my_chat_app/node_modules/socket.io/package.json
+463 info preuninstall socket.io@0.9.16
+464 info uninstall socket.io@0.9.16
+465 verbose true,/Users/appacademy/Desktop/W8D1/my_chat_app/node_modules,/Users/appacademy/Desktop/W8D1/my_chat_app/node_modules unbuild socket.io@0.9.16
+466 info postuninstall socket.io@0.9.16
+467 error Error: socket hang up
+467 error     at createHangUpError (http.js:1373:15)
+467 error     at CleartextStream.socketCloseListener (http.js:1424:23)
+467 error     at CleartextStream.EventEmitter.emit (events.js:126:20)
+467 error     at SecurePair.destroy (tls.js:956:22)
+467 error     at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+468 error If you need help, you may report this log at:
+468 error     <http://github.com/isaacs/npm/issues>
+468 error or email it to:
+468 error     <npm-@googlegroups.com>
+469 error System Darwin 12.2.1
+470 error command "/opt/local/bin/node" "/opt/local/bin/npm" "install"
+471 error cwd /Users/appacademy/Desktop/W8D1/my_chat_app
+472 error node -v v0.8.22
+473 error npm -v 1.2.14
+474 error code ECONNRESET
+475 verbose exit [ 1, true ]
